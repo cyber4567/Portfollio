@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:blue;
+}
+/* Navbar Design */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav  a{
+    list-style:  none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+/* Nav Design End */
+
+/* Section One Start */
+.left {
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+.like{
+    color: orangered;
+}
+.first > div{
+    width: 30%;
+}
+#left{
+font-size: 2rem;
+margin: 25px 0;
+}
+main hr{
+    border: 0;
+    background: #00ffdd;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.right img{
+    width: 500px;
+    margin: 50px 0;
+}
+.red{
+    color: red;
+}
+#element{
+    color: yellow;
+}
+/* Section One End */
+
+/* Secrion Two Start */
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+.box{
+    display: flex;
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0; 
+}
+.vertical{
+    height: 93px;
+    width: 1px;
+    /* border-radius: 15px; */
+    background-color: rgb(255, 136, 0);
+    margin-top: 10px;
+    margin: 0 80px;
+}
+.top{
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-text{
+    position: relative;
+    top: 100px;
+    width: 150px;
+    right: 120px;
+}
+footer{
+    background-color:#1a1a1a;
+    height: 60px;
+}
+.main,h3{
+    color: #00ffdd;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+button{
+    margin-top: 40px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid rgb(106, 0, 205);
+    width: 100px;
+    height: 35px;
+    color: white;
+    margin: 40px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
